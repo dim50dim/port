@@ -11,9 +11,12 @@ const Skill = () => {
                   <p className='py-4'> These are things I've used to build peculiar stuff</p>
                </div>
                  <div className='w-full grid grid-col-2 sm:grid-cols4 gap-4 text-center py-8'>
-                       <div className='shadow-md shadow-[#040c16] hover:scale-100 duration-500'>
+
+                       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                             <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
+                            <p className='my-4'>HTML</p>
                        </div>
+                       
                  </div>
              
            </div>
