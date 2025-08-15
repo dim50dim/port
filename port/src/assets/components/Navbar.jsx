@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from "@/assets/logo1.png"
-import {FaBars, FaTimes} from "react-icons/fa";
+import {FaBars, FaTimes,FaGithub,FaLinkedin} from "react-icons/fa";
+import {BsFillPersonLinesFill} from "react-icons/bs"
 const Navbar = () => {
     const [nav,setNav] = useState(false)
     const handleClick = () => setNav(!nav);
@@ -38,7 +39,14 @@ const Navbar = () => {
 
        {/* Social icons  */}
        <div className='flex flex-column top-[34%] left-0'>
-
+            <ul>
+                 <li className='w-[160px] h-[60px] top-[35%] left-0 ml-[-100p]  hover:ml-[-10px] duration-300bg-blue-500'>
+                    <a target='_blank' className='flex justify-between items-center w-full text-gray-300'
+                     href="https://www.linkedin.com/in/dmitri-zelezkov-b35b41202">
+                        Linkedin <FaLinkedin size={30}/> 
+                    </a>
+                 </li>
+            </ul>
        </div>
     </div>
   )
