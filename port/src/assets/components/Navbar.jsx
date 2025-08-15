@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Logo from "@/assets/logo1.png"
-import {FaBars} from "react-icons/fa";
+import {FaBars, FaTimes} from "react-icons/fa";
 const Navbar = () => {
     const [nav,setNav] = useState(false)
     const handleClick = () => setNav(!nav);
@@ -22,7 +22,7 @@ const Navbar = () => {
 
                {/* Hamburger  */}
             <div className='md:hidden z-10' onClick={handleClick}>
-                <FaBars/>
+                {!nav ? <FaBars/> : <FaTimes/>}
             </div>
 
             {/* Mobile menu  */}
@@ -37,7 +37,7 @@ const Navbar = () => {
             </div>
 
        {/* Social icons  */}
-       <div className='hidden'>
+       <div className='flex flex-column top-[34%] left-0'>
 
        </div>
     </div>
