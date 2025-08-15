@@ -8,7 +8,7 @@ const Navbar = () => {
               <img src={Logo} alt="Logo" style={{width:"50px"}} />
           </div>
                 {/* menu  */}
-          <div className='hidden'> 
+          <div className='hidden flex'> 
             <ul className='flex '>
               <li>Home</li>
               <li>About</li>
