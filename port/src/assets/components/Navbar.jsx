@@ -38,9 +38,9 @@ const Navbar = () => {
             </div>
 
        {/* Social icons  */}
-       <div className='flex flex-column top-[34%] left-0'>
+       <div className='flex flex-column top-[35%] left-0'>
             <ul>
-                 <li className='w-[160px] h-[60px] top-[35%] left-0 ml-[-100p]  hover:ml-[-10px] duration-300bg-blue-500'>
+                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                     <a target='_blank' className='flex justify-between items-center w-full text-gray-300'
                      href="https://www.linkedin.com/in/dmitri-zelezkov-b35b41202">
                         Linkedin <FaLinkedin size={30}/> 
