@@ -9,7 +9,7 @@ import JAVASCRIPT from "@/assets/javascript.png"
 const Skill = () => {
   return (
     <div>
-   <div name="skills" className='bg-[#0a192f] text-gray-300'>
+   <div name="skills" className='w-full bg-[#0a192f] text-gray-300'>
            {/* Container ? */}
            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                <div >
