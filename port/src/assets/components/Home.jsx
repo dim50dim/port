@@ -1,9 +1,19 @@
 import React from 'react'
+import myPhoto from "@/assets/photo.jpg"
 import { HiArrowNarrowRight } from 'react-icons/hi';
 const Home = () => {
   return (
     <div name='home' className='bg-[#0a192f] w-full h-screen '>
                {/* Container  */}
+         
+           {/* photo  */}
+
+             <div class="flex flex-col items-center mt-10">
+
+  <div class="w-40 h-40 rounded-full  bg-cover shadow-lg mb-6">
+    <div style={{backgroundImage:`url(${myPhoto})`}} alt="My Photo" className="w-40 h-40 rounded-full bg-center bg-cover shadow-lg border-4 border-white"></div>
+  </div>
+    </div>
 
                      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-pink-600 '>Hi, my name is</p>
@@ -23,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

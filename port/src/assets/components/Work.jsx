@@ -4,15 +4,15 @@ import NodeImg from "@/assets/user-2.jpg"
 const Work = () => {
   return (
     <div name="work" className='bg-[#0a192f] md:h-screen w-full text-gray-300'>
-           <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+                 <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8  '>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
                 <p className='py-6'>Check out some of my recent project</p>
             </div>
             
                <div  style={{backgroundImage:`url(${WorkImg})`}}
-               className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-8 mb-8'>
-
+              //  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-8 mb-8'>
+             className='w-64 h-64 overflow-hidden rounded-lg '>
                 <div className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "> 
                {/* Hover   */}
@@ -29,7 +29,8 @@ const Work = () => {
                </div>
                
                <div  style={{backgroundImage:`url(${NodeImg})`}}
-               className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+              //  className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+             className= 'w-64 h-64 overflow-hidden rounded-lg '>
                 <div className='shadow-lg shadow-[#040c16] group container  rounded-md flex justify-center item-center mx-auto content-div'> 
                {/* Hover   */}
                     <div className='opacity-0 group-hover:opacity-100'>
