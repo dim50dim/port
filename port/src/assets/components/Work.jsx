@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkImg from "@/assets/cinema.png"
+import NodeImg from "@/assets/user-2.jpg"
 const Work = () => {
   return (
     <div name="work" className='bg-[#0a192f] md:h-screen w-full text-gray-300'>
@@ -16,6 +17,22 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                              React JS Application
+                        </span>
+                        <div className='pt-8 text-center'>
+                         <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><button>Demo</button></a>
+                         <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><button>Code</button></a>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               
+               <div  style={{backgroundImage:`url(${NodeImg})`}}
+               className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div className='shadow-lg shadow-[#040c16] group container  rounded-md flex justify-center item-center mx-auto content-div'> 
+               {/* Hover   */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                             Node JS Application
                         </span>
                         <div className='pt-8 text-center'>
                          <a href="/" className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'><button>Demo</button></a>
