@@ -6,6 +6,7 @@ import TAILWIND from "@/assets/tailwind.png"
 import NODE from "@/assets/node.png"
 import CSS from "@/assets/css.png"
 import JAVASCRIPT from "@/assets/javascript.png"
+import TYPESCRIPT from "@/assets/typescript.png"
 const Skill = () => {
   return (
     <div>
@@ -44,6 +45,14 @@ const Skill = () => {
                        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                             <img className='w-20 mx-auto' src={NODE} alt="NODE icon" />
                             <p className='my-4'>NODE</p>
+                       </div>
+                       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                            <img className='w-20 mx-auto' src={TAILWIND} alt="TAILWIND icon" />
+                            <p className='my-4'>TAILWIND</p>
+                       </div>
+                       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                            <img className='w-20 mx-auto' src={TYPESCRIPT} alt="TYPESCRIPT icon" />
+                            <p className='my-4'>TYPESCRIPT</p>
                        </div>
 
                  </div>
