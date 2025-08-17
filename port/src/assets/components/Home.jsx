@@ -23,10 +23,11 @@ const Home = () => {
                                 {/* photo  */}
 
                                     <div class="flex flex-col items-center mt-10">
-  <div class="w-40 h-40 rounded-full  bg-cover shadow-lg mb-6">
-    <div style={{backgroundImage:`url(${myPhoto})`}} alt="My Photo" className="w-40 h-40 rounded-full  bg-cover shadow-lg border-4 border-white"></div>
-  </div>
-    </div>
+                    <div class="w-40 h-40 rounded-full  bg-cover shadow-lg mb-6">
+                      <div style={{backgroundImage:`url(${myPhoto})`}} alt="My Photo" className="w-40 h-40 rounded-full  bg-cover shadow-lg border-4 border-white"></div>
+                    </div>
+                      </div>
+
                        <div>
                            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
                             View Work  <span className=' group-hover:rotate-90  duration-300'> <HiArrowNarrowRight className='ml-3'/></span></button>
