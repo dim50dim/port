@@ -1,5 +1,5 @@
 import React from 'react'
-import {data} from '../data/data.jsx'
+import {data} from './data/data.jsx'
 
 const Work = () => {
     const project = data;
@@ -28,7 +28,9 @@ const Work = () => {
                                  <a href={item.github} target='_blanc' className="">
                                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code to see</button>
                                  </a>
-                                 <a href={item.live} target='_blanc' className=""></a>
+                                 <a href={item.live} target='_blanc' className="">
+                                      <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Watch it</button>
+                                 </a>
                              </div>
                             </div>
                        </div>
