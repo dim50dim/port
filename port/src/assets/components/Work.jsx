@@ -1,7 +1,5 @@
 import React from 'react'
-import WorkImg from "@/assets/cinema.png"
-import NodeImg from "@/assets/user-2.jpg"
-import Project_3 from "@/assets/project_3_picture.png"
+import {data} from '../data/data.jsx'
 const Work = () => {
   return (
     <div name="work" className='bg-[#0a192f] md:h-screen w-full text-gray-300'>
