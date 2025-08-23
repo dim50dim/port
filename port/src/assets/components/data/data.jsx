@@ -7,8 +7,8 @@ export const data = [
         id:1,
         name : "React JS Application",
         image: WorkImg,
-        github: "",
-        live:"",
+        github: "https://github.com/dim50dim/cinema_project",
+        live:"https://dim50dim.github.io/cinema_project/",
     },
     {
         id:2,
