@@ -14,14 +14,14 @@ export const data = [
         id:2,
         name : "Node JS Application",
         image: NodeImg,
-        github: "",
-        live:"",
+        github: "https://github.com/dim50dim/namari-",
+        live:"https://namari-project.onrender.com",
     },
     {
         id:3,
         name : "React JS Application",
         image: Project_3,
-        github: "",
-        live:"",
+        github: "https://github.com/dim50dim/financial_project",
+        live:"https://dim50dim.github.io/financial_project/",
     },
 ]
