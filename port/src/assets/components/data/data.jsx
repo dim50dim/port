@@ -1,7 +1,7 @@
 import WorkImg from '@/assets/cinema.png' 
 import NodeImg from "@/assets/user-2.jpg"
 import Project_3 from "@/assets/project_3_picture.png"
-
+import netflix from "@/assets/netflix_picture.png"
 export const data = [
     {
         id:1,
@@ -23,5 +23,12 @@ export const data = [
         image: Project_3,
         github: "https://github.com/dim50dim/financial_project",
         live:"https://dim50dim.github.io/financial_project/",
+    },
+    {
+        id:4,
+        name : "React JS & Firebase",
+        image: netflix,
+        github: "https://github.com/dim50dim/netfix_clone",
+        live:"https://netflixclone-f2453.web.app/",
     },
 ]

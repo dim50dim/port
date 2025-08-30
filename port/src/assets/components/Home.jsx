@@ -22,8 +22,8 @@ const Home = () => {
                        </p>
                                 {/* photo  */}
 
-                                    <div class="flex flex-col items-center mt-10">
-                    <div class="w-40 h-40 rounded-full  bg-cover shadow-lg mb-6">
+                                    <div className="flex flex-col items-center mt-10">
+                    <div className="w-40 h-40 rounded-full  bg-cover shadow-lg mb-6">
                       <div style={{backgroundImage:`url(${myPhoto})`}} alt="My Photo" className="w-40 h-40 rounded-full  bg-cover shadow-lg border-4 border-white"></div>
                     </div>
                       </div>
