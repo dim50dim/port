@@ -1,12 +1,15 @@
 import React from 'react'
-import HTML from "@/assets/html.png"
-import GIT from "@/assets/github.png"
-import REACT from "@/assets/react.png"
-import TAILWIND from "@/assets/tailwind.png"
-import NODE from "@/assets/node.png"
-import CSS from "@/assets/css.png"
-import JAVASCRIPT from "@/assets/javascript.png"
-import TYPESCRIPT from "@/assets/typescript.png"
+import HTML from "@/assets/logo-images/html.png"
+import GIT from "@/assets/logo-images/github.png"
+import REACT from "@/assets/logo-images/react.png"
+import TAILWIND from "@/assets/logo-images/tailwind.png"
+import NODE from "@/assets/logo-images/node.png"
+import CSS from "@/assets/logo-images/css.png"
+import JAVASCRIPT from "@/assets/logo-images/javascript.png"
+import TYPESCRIPT from "@/assets/logo-images/typescript.png"
+import FIREBASE  from "@/assets/logo-images/firebase.png"
+
+
 const Skill = () => {
   return (
     <div>
@@ -27,6 +30,11 @@ const Skill = () => {
                        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                             <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
                             <p className='my-4'>CSS</p>
+                       </div>
+
+                      <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                            <img className='w-20 mx-auto' src={FIREBASE} alt="FIREBASE icon" />
+                            <p className='my-4'>FIREBASE</p>
                        </div>
 
                        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
