@@ -21,7 +21,7 @@ const Work = () => {
                        flex justify-center text-center items-center mx-auto content-div">
 
                         {/* hover  */}
-                            <div className="opacity-0 group-hover:opacity-100">
+                            <div className="opacity-100 sm:opacity-0 group-hover:opacity-100">
                                 <span className="text-2xl font-bold text-white tracking-wider"> {item.name} </span>
                           
                              <div className="pt-8 text-center">
