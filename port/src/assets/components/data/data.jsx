@@ -4,6 +4,7 @@ import Project_3 from "@/assets/images/project_3_picture.png"
 import Netflix from "@/assets/images/netflix_picture.png"
 import Weather from "@/assets/images/weather.png"
 import Toys from "@/assets/images/knitting_toys.png"
+import Parallax from "@/assets/images/parallax_picture.png"
 export const data = [
     {
         id:1,
@@ -46,5 +47,12 @@ export const data = [
         image: Toys,
         github: "https://github.com/dim50dim/toys",
         live:"https://dim50dim.github.io/toys/",
+    },
+    {
+        id:7,
+        name : "React && Parallax",
+        image: Parallax,
+        github: "https://github.com/dim50dim/parallax_react",
+        live:"https://dim50dim.github.io/parallax_react/",
     },
 ]
